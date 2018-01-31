@@ -15,6 +15,10 @@ module ApplicationHelper
     content_tag(:p, greeting, class: "source-greeting")
     end
   end
+
+   def copyright_generator 
+    GlatzCopyrightTool::Renderer.copyright 'Zayne Glatz','All rights reserved.'
+  end
 end
 
 

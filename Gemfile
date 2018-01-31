@@ -54,6 +54,7 @@ gem 'friendly_id', '~> 5.2', '>= 5.2.3'
 gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
+gem 'glatz_copyright_tool', git: 'https://github.com/Zsglatz/glatz_copyright_tool'
 
 
 
